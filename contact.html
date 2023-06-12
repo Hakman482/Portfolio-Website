@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,300&family=Open+Sans:wght@600&family=Public+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+        <title>Personal Website</title>
+</head>
+<body>
+
+  <div class="header">
+    <div class="logo">
+     <a href="./index.html"><img src="./images/home/head1-img.png" width="100px" height="45px"></a> 
+    </div>
+    <div class="dropdown">
+    
+    <img src="./images/home/menu-squared.png"onclick="myFunction()" class="dropbtn" height="80px">
+    <div id="myDropdown" class="dropdown-content">
+      <a href="./index.html">Home</a>
+      <a href="./about.html">About</a>
+      <a href="./resume.html">Resume</a>
+      <a href="./projects.html">Projects</a>
+      <a href="./contact.html">Contacts</a>
+    </div>
+    </div>
+    <div class="features">
+      <ul>
+        <li class="f-items"><a href="./index.html">Home</a></li>
+        <li class="f-items"><a href="./about.html">About</a></li> 
+        <li class="f-items"><a href="./resume.html">Resume</a></li> 
+        <li class="f-items"><a href="./projects.html">Projects</a></li> 
+        <li class="f-items"><a href="./contact.html">Contacts</a></li> 
+      </ul>
+
+    </div>
+  </div>
+  
+<div class="contact">
+  <div class="pic">
+    <img src="./images/contact/cont-img.jpg" height="200px">
+  </div>
+    <div class="address">
+        <h6>Contact Information</h6>
+        <ul>
+            <li class="number"><img src="./images/contact/phone-call.png" width="30px">+233547165154</li>
+            <li class="email"><img src="./images/contact/email.png" width="30px" id="con-stubborn">issahhakeem482@gmail.com</li>
+            <li class="web"><img src="./images/contact/globe.jpg" width="30px">www.hakman.com</li>
+        </ul>
+    </div>
+
+
+    <div class="outline">
+        <h6>Want To Get In Touch?</h6>
+        <p>Feel free to shoot me a message</p>
+        <form method="post" action='https://register-demo.codertech.org'>
+          <fieldset>
+            <label for="first-name">Name <input id="first-name" name="first-name" type="text" placeholder='Enter your Name' required /></label>
+            <label for="email">Email <input id="email" name="email" type="email" placeholder='Enter your Email address' required /></label>
+                </fieldset>
+          <fieldset>
+            <label for="bio">Message:
+              <textarea id="bio" name="bio" rows="4" cols="40"></textarea>
+            </label>
+          </fieldset>
+          <input type="submit" value="Send Message"/>
+        </form>
+      </div>
+    </div>
+
+    <script src="./mjs.js"></script>
+</body>
+<footer >
+    <div class="copy">
+        © Copyright hakman 2023.
+    </div>
+    <div class="design">
+      🧑🏽‍🚀Designed by Hakeem🧑🏽‍🚀
+    </div>
+    
+    <div class="mysocials">
+      <ul>
+        <li class="mysocial"><a href=" mailto:issahhakeem482@gmail.com" target="_blank"><img src="./images/home/gmail.png" height="20px" width="20px"></a></li>
+        <li class="mysocial"><a href="https://www.linkedin.com/in/issahhakeem482" target="_blank"><img src="./images/home/linkedin.png"  height="20px" width="20px"></a> </li>
+        <li class="mysocial"><a href="https://github.com/Hakman482" target="_blank"><img src="./images/home/github.png"  height="20px" width="20px"></a></li>
+        <li class="mysocial"><a href="https://twitter.com/hakman948" target="_blank"><img src="./images/home/twitter.png" height="20px" width="20px"></a></li>
+      </ul>
+    </div>
+</footer>
+</html>
